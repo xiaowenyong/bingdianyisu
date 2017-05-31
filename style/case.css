@@ -1,0 +1,209 @@
+
+/*大标题图片*/
+.big_title_img
+{
+    position: absolute;
+    left: 50%;
+    margin-left: -283px;
+    top: 100px;
+}
+/*大标题图片结束*/
+/***************内容部分************8*/
+/*导航栏*/
+.contacts_node_box
+{
+    height: 35px;
+    width: 100%;
+    border-bottom:1px solid #ccc ;
+}
+.contacts_node_list
+{
+    margin: 0 auto;
+    width: 935px;
+    height: 35px;
+}
+.contacts_node_list li
+{
+    float: left;
+    margin-top: 9px;
+    width: 70px;
+    text-align: center;
+}
+.contacts_node_list .contacts_node
+{
+    float: right;
+}
+.contacts_node_list li a:hover{
+    color: #6fa605;
+}
+/*主体部分开始*/
+/*主体的4个按钮开始*/
+.case_con{
+    margin: auto;
+    text-align: left;
+    width: 935px;
+    height: auto;
+}
+.case_btn{
+    height: 100px;
+    padding-left: 280px;
+    position: relative;
+    text-align: center;
+    /*border: 1px solid red;*/
+
+}
+.case_btn_1{
+    width: 93px;
+    height: 65px;
+    position: absolute;
+    bottom: -12px;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+    -moz-transition: height 1s ;
+}
+.case_btn1{
+    background: url(../images/case_btn.png) no-repeat 0 0;
+    left: 270px;
+}
+.case_btn2{
+    background: url(../images/case_btn.png) no-repeat -104px 0;
+    left: 374px;
+}
+.case_btn3{
+    background: url(../images/case_btn.png) no-repeat -207px 0;
+    left: 478px;
+}
+.case_btn4{
+    background: url(../images/case_btn.png) no-repeat -309px 0;
+    left: 582px;
+}
+.case_btn1:hover,.case_btn2:hover,.case_btn3:hover,.case_btn4:hover{
+    background-position-y: -100px !important; ;
+    height: 96px !important;
+}
+/*主体的4个按钮结束*/
+/*主体的7个方框链接按钮开始*/
+.case_btn_split {
+    text-align: right;
+    background: url(../images/case_btn_split.png)center top no-repeat;
+    width: 935px;
+    height: 60px;
+    margin: 0 auto;
+    z-index: 2;
+}
+.case_btn_split a {
+    width: 12px;
+    height: 12px;
+    float: right;
+    display: inline;
+    margin-left: 2px;
+    margin-top: 20px;
+}
+.btn1 {
+    background: url(../images/color_btn.png) -90px 0;
+}
+.btn2 {
+    background: url(../images/color_btn.png)-75px 0;
+}
+.btn3 {
+    background: url(../images/color_btn.png)-60px 0;
+}
+.btn4 {
+    background: url(../images/color_btn.png)-46px 0;
+}
+.btn5 {
+    background: url(../images/color_btn.png)-30px 0;
+}
+.btn6 {
+    background: url(../images/color_btn.png) -14px 0;
+}
+.btn7 {
+    background: url(../images/color_btn.png)0 0;
+}
+/*主体的7个方框链接按钮结束*/
+/*产品图片开始*/
+.case2{
+    width: 935px;
+    height: auto;
+    overflow: hidden;
+    padding-top: 30px;
+}
+/*第一个盒子初始的放48个图片*/
+.case_initial_box {
+    width: 935px;
+    height: auto;
+}
+/*li的*/
+.case2_lin1 li {
+    float: left;
+    width: 302px;
+    height: 188px; //xiugai
+    line-height: 188px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    text-align: center;
+    background: url(../images/bg_case_f.png) 0px 140px no-repeat;
+    margin-left: 8px;
+}
+.case2_lin1 li img {
+    padding-top: 18px;
+}
+/*链接里面的盒子与阴影*/
+.case_logo_box {
+    width: 935px;
+    height: 3552px;
+    margin-top: 0;
+    /*padding-top: 50px;*/
+    border: 1px solid blue;
+    display: block;
+}
+/*图片的边框*/
+.case_li1_box1 {
+    width: 302px;
+    position: relative;
+    height: 188px;
+    background: url(../images/bg_case.png) center center;
+    transition: margin-top 2s;
+}
+/*蒙版*/
+.case_mask {
+    display: none;
+    width: 262px;
+    height: 145px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: rgba(134, 125, 122, 0.5);
+}
+/*蒙版中间的小图标链接*/
+.case_li1_box1 a {
+    display: block;
+    width: 61px;
+    height: 61px;
+    line-height: 61px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: -158px;
+    position: absolute;
+    transition: margin-top 1s;
+    opacity: 0;
+    background: url(../images/readmore-icon.png) no-repeat 0px 0px;
+}
+/*放4个按钮的图片放在第二个盒子,7个方框链接的图片放在第三个盒子里面*/
+.case_btn_box，.case_link_box {
+    width: 935px;
+    height: auto;
+}
+.case_btn_box_inter,.case_btn_box_logo,.case_btn_box_media,.case_btn_box_web{
+    width: 935px;
+    height: auto;
+    display: none;
+}
+.case_initial_box{
+    display: block;
+}
+.case_link_box_blue,.case_link_box_gray,.case_link_box_green,.case_link_box_orange,.case_link_box_purple,.case_link_box_red,.case_link_box_yellow{
+    display: none;
+}
+/*产品图片结束*/
+/*主体部分结束*/

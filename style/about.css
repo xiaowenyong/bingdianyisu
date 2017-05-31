@@ -1,0 +1,411 @@
+
+/*大标题图片*/
+.big_title_img
+{
+    position: absolute;
+    left: 50%;
+    margin-left: -283px;
+    top: 100px;
+}
+/*大标题图片结束*/
+
+/***************内容部分*************/
+/*导航栏*/
+.contacts_node_box
+{
+    height: 35px;
+    width: 100%;
+    border-bottom:1px solid #ccc ;
+
+}
+.contacts_node_list
+{
+    margin: 0 auto;
+    width: 935px;
+    /*border:1px solid #ccc;*/
+    height: 35px;
+}
+.contacts_node_list li
+{
+
+    float: left;
+    margin-top: 9px;
+    width: 70px;
+    text-align: center;
+}
+.contacts_node_list li a:hover
+{
+    color:#6fa605;
+}
+.contacts_node_list .contacts_node
+{
+    float: right;
+}
+/*导航栏结束*/
+
+
+/*中间布局*/
+.about_conter{
+    width: 935px;
+    margin: auto;
+    text-align: left;
+}
+/*第一部分*/
+.about_one_conter{
+    height: 100px;
+    position: relative;
+    text-align: center;
+}
+.about_backdrop{
+    background: url(../images/about_banner_bg_top.png) top center no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    line-height: 16px;
+    top:97px;
+    left: 0;
+}
+.about_button{
+    width: 93px;
+    height: 65px;
+    left: 270px;
+    background: url(../images/us_btn.png);
+    position: absolute;
+    bottom: -12px;
+    transition:height 0.5s;
+}
+.about_x1:hover{
+    height: 90px;
+    background-position-y: -100px;
+    transition: height 0.5s;
+}
+.about_x2{
+    background: url(../images/us_btn.png) -104px 0;
+    left: 374px;
+}
+.about_x2:hover{
+    background-position-y: -100px;
+    height: 90px;
+    transition: height 0.5s;
+}
+.about_x3{
+    background: url(../images/us_btn.png) -207px -100px;
+    left: 478px;
+    height: 90px;
+}
+.about_x4{
+    background: url(../images/us_btn.png) -310px 0;
+    left: 582px;
+}
+.about_x4:hover{
+    background-position-y: -100px;
+    height: 90px;
+    transition: height 0.5s;
+}
+/*第一部分结束*/
+/*第二部分*/
+.about_two_conter{
+    width: 935px;
+    margin-top:12px;
+    position: relative;
+}
+.about_box_m{
+    background: url(../images/box_m.png) repeat;
+}
+.about_box_t{
+    height: 23px;
+    background: url(../images/box_t.png);
+}
+.about_logo{
+    margin: 2px 0 -3px 25px;
+}
+.about_logo2{
+    margin-left: 3px;
+    margin-right: 368px;
+}
+.about_character{
+    margin-top: 10px;
+    margin-right: 46px;
+    width: 545px;
+    line-height: 23px;
+}
+.about_box_b{
+    height: 23px;
+    background:url(../images/box_b.png) bottom left;
+}
+/*第二部分结束*/
+/*第三部分*/
+.about_three_conter{
+    margin-top: 22px;
+    line-height: 23px;
+    position: relative;
+}
+.about_text{
+    width: 260px;
+    padding:0 23px;
+    margin-top: 10px;
+    background: url(../images/about_shu.png) right top repeat-y;
+}
+.about_text p{
+    color:#808080;
+    font-size: 11px;
+    line-height: 23px;
+}
+.about_label1{
+    width: 27px;
+    height: 14px;
+    position: absolute;
+    left: 152px;
+    top:-13px;
+    background: url(../images/aboutus_up.png);
+}
+.about_label2{
+    width: 80px;
+    height: 87px;
+    position: absolute;
+    background: url(../images/aboutus_up2.png);
+    top: -11px;
+    right: 65px;
+}
+/*第三部分结束*/
+/*第四部分*/
+/*上面*/
+.about_four_top{
+    background: url(../images/about_b3.png) 53px top no-repeat;
+    height: 81px;
+    margin-top: 22px;
+}
+/*下面*/
+.about_four{
+        margin-bottom: 30px;
+}
+/*第四部分结束*/
+
+/*1.html部分*/
+/*第一部分*/
+.about_w1{
+    height: 90px;
+    background: url(../images/us_btn.png) 0 -100px; ;
+}
+.about_w2{
+    background: url(../images/us_btn.png) -104px 0;
+    left: 374px;
+}
+.about_w2:hover{
+    height: 90px;
+    background-position-y: -100px;
+    transition: height 0.5s;
+}
+.about_w3{
+    background: url(../images/us_btn.png) -207px 0;
+    left: 478px;
+}
+.about_w3:hover{
+    background-position-y: -100px;
+    height: 90px;
+    transition: height 0.5s;
+}
+.about_w4{
+    background: url(../images/us_btn.png) -310px 0;
+    left: 582px;
+}
+.about_w4:hover{
+    height: 90px;
+    background-position-y: -100px;
+    transition: height 0.5s;
+}
+/*第一部分结束*/
+.about_two_a{
+    margin-left: 460px;
+    float: left;
+    display: inline;
+    height: 40px;
+}
+.about_two_float{
+    position: absolute;
+    width: 99px;
+    height: 49px;
+    background: url(../images/aboutus_p_label.png);
+    left: -6px;
+    top: 38px;
+}
+.about_float{
+    opacity: 0;
+}
+.about_float:hover{
+    opacity: 1;
+    background: url(../images/aboutus_p_label.png) 0 -49px;
+    transition: opacity 1s;
+}
+.about_two_back1{
+    height: 40px;
+    width: 40px;
+    float: left;
+    display: inline;
+    background: url(../images/aboutus_p_tool.png) ;
+}
+.about_two_back2{
+    height: 40px;
+    width: 40px;
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    position: absolute;
+    background: url(../images/aboutus_p_tool.png) -48px 0;
+}
+.about_false1{
+    opacity: 0;
+
+}
+.about_false1:hover{
+    background: url(../images/aboutus_p_tool.png) -48px -41px;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+/*1.html部分结束*/
+
+/*2.html*/
+/*第一部分*/
+.about_q1{
+    background: url(../images/us_btn.png)  ;
+}
+.about_q1:hover{
+    background-position-y: -100px;
+    height: 90px;
+    transition: height 0.5s;
+}
+.about_q2{
+    height: 90px;
+    background: url(../images/us_btn.png) -104px -100px;
+    left: 374px;
+}
+.about_q3{
+    background: url(../images/us_btn.png) -207px 0;
+    left: 478px;
+}
+.about_q3:hover{
+    height: 90px;
+    background-position-y: -100px;
+    transition: height 0.5s;
+}
+.about_q4{
+    background: url(../images/us_btn.png) -310px 0;
+    left: 582px;
+}
+.about_q4:hover{
+    height: 90px;
+    background-position-y: -100px;
+    transition: height 0.5s;
+}
+/*第一部分结束*/
+.about_logo2_right{
+    margin-right: 345px;
+}
+/*2.html结束*/
+/*第4.html部分*/
+/*第一部分*/
+.about_e1{
+    background: url(../images/us_btn.png)  ;
+}
+.about_e1:hover{
+    height: 90px;
+    background-position-y: -100px;
+    transition: height 0.5s;
+}
+.about_e2{
+    background: url(../images/us_btn.png) -104px 0;
+    left: 374px;
+}
+.about_e2:hover{
+    height: 90px;
+    background-position-y: -100px;
+    transition: height 0.5s;
+}
+.about_e3{
+    background: url(../images/us_btn.png) -207px 0;
+    left: 478px;
+}
+.about_e3:hover{
+    height: 90px;
+    background-position-y: -100px;
+    transition: height 0.5s;
+}
+.about_e4{
+    height: 90px;
+    background: url(../images/us_btn.png) -310px -100px;
+    left: 582px;
+}
+/*第一部分结束*/
+.about_21{
+    position: absolute;
+    width: 99px;
+    height: 49px;
+    left: -5px;
+    top: 40px;
+    background: url("../images/label.png");
+}
+.about_age{
+    opacity: 0;
+}
+.about_age:hover{
+    opacity: 1;
+    background: url("../images/label.png") 0 -49px;
+    transition: opacity 1s;
+}
+.about_logo3{
+    width: 292px;
+    height: 160px;
+    margin: 1px 26px 0px 23px;
+}
+.about_logo4{
+    margin-bottom: 8px;
+}
+.about_typeface{
+    width: 550px;
+    height: 76px;
+    line-height: 23px;
+    color: #808080;
+    font-size: 11px;
+    text-align: left;
+}
+.about_one_float{
+    margin-left: 460px;
+    display: inline;
+    height: 40px;
+}
+.about_one{
+    height: 40px;
+    width: 40px;
+    background: url(../images/member_tool.png) 0 -41px;
+    display: inline;
+    position: absolute;
+
+}
+.about_two{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    background: url(../images/member_tool.png) -48px 0;
+    display: inline;
+    position: absolute;
+}
+.about_two:hover{
+    background: url(../images/member_tool.png) -48px -41px;
+}
+    /*.about_false{*/
+        /*opacity: 0;*/
+        /*height: 40px;*/
+        /*width: 40px;*/
+        /*margin-left: 50px;*/
+        /*background: url(../images/member_tool.png) -48px 0;*/
+        /*display: inline;*/
+        /*position: absolute;*/
+    /*}*/
+    /*.about_false:hover{*/
+        /*background: url(../images/member_tool.png) -48px -41px;*/
+        /*opacity: 1;*/
+        /*transition: opacity 0.5s;*/
+    /*}*/
+
+/*第4.html部分结束*/

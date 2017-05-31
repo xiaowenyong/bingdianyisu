@@ -1,0 +1,316 @@
+
+/*大标题图片*/
+.big_title_img
+{
+    position: absolute;
+    left: 50%;
+    margin-left: -283px;
+    top: 100px;
+}
+/*大标题图片结束*/
+
+/***************内容部分************8*/
+/*导航栏*/
+.contacts_node_box
+{
+    height: 35px;
+    width: 100%;
+    border-bottom:1px solid #ccc ;
+
+}
+.contacts_node_list
+{
+    margin: 0 auto;
+    width: 935px;
+    /*border:1px solid #ccc;*/
+    height: 35px;
+}
+.contacts_node_list li
+{
+
+    float: left;
+    margin-top: 9px;
+    width: 70px;
+    text-align: center;
+}
+.contacts_node_list .contacts_node
+{
+    float: right;
+}
+
+/*品牌建设*/
+.brand_node_box
+{
+    height: 230px;
+    /*border: solid 1px red;*/
+}
+.brand_node_box ul
+{
+    margin: 0 auto;
+    width: 935px;
+    position: relative;
+    margin-top: 60px;
+
+}
+.contact_title_img
+{
+    position: absolute;
+    margin-left: -298px;
+    left: 50%;
+}
+.contact_btn_img
+{
+    position: absolute;
+    margin-left: -126px;
+    top: 90px;
+    left: 50%;
+    width: 252px;
+    height: 67px;
+    background: url(../images/contact_btn.png) no-repeat ;
+}
+.contact_btn_img_copy
+{
+    position: absolute;
+    margin-left: -126px;
+    top: 90px;
+    left: 50%;
+    width: 252px;
+    height: 67px;
+    background: url(../images/contact_btn.png) no-repeat 0px -67px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.contact_btn_img_copy:hover
+{
+    opacity: 100;
+}
+/*联系方式*/
+.contactdetails_node_box
+{
+    height: 220px;
+    /*border: solid 1px red;*/
+
+}
+.contactdetails_node_img
+{
+    margin: 0 auto;
+    width: 935px;
+    height: 180px;
+    border: solid 1px #ccc;
+    background: url(../images/lx.png) no-repeat center -5px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+.contactdetails_node_img .qq
+{
+    position: absolute;
+    width: 274px;
+    height: 148px;
+    top: 9px;
+    left: 30px;
+    /*border:solid 1px red;*/
+    background: url(../images/lx.png) no-repeat 1px -195px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.contactdetails_node_img .qq:hover
+{
+    opacity: 100;
+}
+
+
+.contactdetails_node_img .web
+{
+    position: absolute;
+    width: 274px;
+    height: 148px;
+    top: 9px;
+    left: 330px;
+    /*border:solid 1px red;*/
+    background: url(../images/lx.png) no-repeat -300px -195px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.contactdetails_node_img .web:hover
+{
+    opacity: 100;
+}
+
+.contactdetails_node_img .phone
+{
+    position: absolute;
+    width: 274px;
+    height: 148px;
+    top: 9px;
+    left: 630px;
+    /*border:solid 1px red;*/
+    background: url(../images/lx.png) no-repeat -601px -195px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.contactdetails_node_img .phone:hover
+{
+    opacity: 100;
+}
+
+
+/*用户资料*/
+.contacts_apply_box
+{
+
+    width: 935px;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 290px;
+}
+.contacts_apply li
+{
+    float: left;
+    /*background-color: rebeccapurple;*/
+    height: 43px;
+    width: 467px;
+    margin-bottom: 20px;
+}
+.contacts_apply
+{
+    width: 935px;
+    height: 200px;
+    float: left;
+    margin-left: 16px;
+    position: relative;
+    margin-left: 10px;
+    /*border: solid 1px rebeccapurple;*/
+}
+
+
+.contacts_apply .contacts_name_icon
+{
+    float: left;
+    display: inline-block;
+    width: 42px;
+    height: 43px;
+    background: url(../images/contact_label_nick.png) no-repeat;
+}
+.contacts_apply .contacts_email_icon
+{
+    float: left;
+    display: inline-block;
+    width: 42px;
+    height: 43px;
+    background: url(../images/contact_label_email.png) no-repeat;
+}
+
+
+.contacts_apply .contacts_phone_icon
+{
+    float: left;
+    display: inline-block;
+    width: 42px;
+    height: 43px;
+    background: url(../images/contact_label_tel.png) no-repeat;
+}
+
+
+.contacts_apply .contacts_hone_icon
+{
+    float: left;
+    display: inline-block;
+    width: 42px;
+    height: 43px;
+    background: url(../images/contact_label_adress.png) no-repeat;
+}
+
+.contacts_apply .contacts_pen_icon
+{
+    float: left;
+    display: inline-block;
+    width: 42px;
+    height: 139px;
+    background: url(../images/contact_label_xbody.png) no-repeat;
+}
+.contacts_apply_box .contacts_apply s
+{
+    float: left;
+    display: block;
+    width: 920px;
+    height: 45px;
+    /*background: red;*/
+}
+.contacts_apply_box .contacts_apply textarea
+{
+    float: left;
+    height: 137px;
+    width: 860px;
+    padding-left: 10px;
+}
+
+.contacts_apply input
+{
+    height: 43px;
+    width: 400px;
+    float: left;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+
+.contacts_apply_box .contacts_apply i
+{
+    display: block;
+    float: right;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+.contacts_apply .contacts_apply_btn
+{
+   position: absolute;
+    right: 10px;
+    top:200px;
+    width: 161px;
+    height: 40px;
+    background:url(../images/contact_submit.png) no-repeat center -3px;
+}
+
+
+/***************内容部分结束************8*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

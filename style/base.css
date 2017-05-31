@@ -1,0 +1,391 @@
+
+/* 告诉浏览器当前css文件采用的是 UTF-8编码 */
+@charset "utf-8";
+
+/*css 初始化开始 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "微软雅黑";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;
+}
+
+body {
+    /*Arial 电脑都会有的
+    \5b8b 宋
+    \4f53 体
+
+    如果文件是 ANSI 编码，也可以正常运行
+    宋体 ==> 中文
+    \5b8b\4f53 ==> 英文
+    */
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #fff
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+/*css 初始化结束 */
+
+/*公共类开始*/
+.w { /*版心 提取 */
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+
+.newcss {
+    color: red;
+}
+/*公共类结束*/
+
+
+body{
+    background-color: #F2F2F2;
+    margin: 0;
+
+}
+html{
+    overflow-x: hidden;
+}
+
+/*这是导航栏部分css*/
+.home_wrap{
+    width: 100%;
+}
+.home_header{
+    width: 100%;
+    height: 63px;
+    line-height: 63px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background: url(../images/bg_head.png) repeat-x;
+}
+
+.home_header_container{
+    margin: auto;
+    text-align: left;
+    width: 935px;
+}
+.home_header_container_l{
+    width:182px ;
+    height: 38px;
+    float: left;
+    overflow: hidden;
+    margin-top: 8px;
+    position: relative;
+}
+.home_logoa{
+    width: 182px;
+    height: 35px;
+    display: block;
+    background: url(../images/logo.png) no-repeat  0 0;
+    position: relative;
+}
+.home_logoa_a{
+    width: 182px;
+    height: 35px;
+    display: block;
+    background: url(../images/logo.png) no-repeat  0 -38px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;	/* Firefox 4 */
+    -o-transition: opacity 0.5s;	/* Opera */
+
+}
+.home_header_container_r{
+    height: 40px;
+    float: right;
+    margin-top: 8px;
+    margin-right: -20px;
+    font-size: 14px;
+}
+.home_header_container_r ul{
+    list-style: none;
+}
+.home_header_container_r ul li{
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    display: inline;
+    margin-right: 40px;
+}
+#home_header_container_r_c{
+    color: #BFF52C;
+}
+.home_header_container_r ul li a{
+
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.home_header_container_r ul li a:hover{
+    color:#BFF52C;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;	/* Firefox 4 */
+    -o-transition: color 0.5s;	/* Opera */
+
+}
+/*这是导航栏部分结束*/
+
+/*这是banner部分开始*/
+.home_banner{
+    width: 100%;
+    height: 236px;
+    overflow: hidden;
+    background-color: black;
+
+
+    position: relative;
+
+}
+#wrapp{
+    position: relative;
+    width: 100%;
+    /*height: 1000px;*/
+}
+.home_banner_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.home_banner_aa{
+    height: 418px;
+    width: 1600px;
+
+    position: relative;
+    margin: 0 auto;
+}
+
+#wrapaa{
+    width:100%;
+    /*height:9999px;*/
+    border:1px solid #000;
+    position:relative;
+}
+#home_banner_bg{
+    position:absolute;z-index:1;
+}
+
+.home_banner_l{
+    width: 1920px;
+    height: 440px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+/*这是banner部分结束*/
+
+
+/*这是foot的css开始*/
+.home_body_home{
+    width: 100%;
+    height: 90px;
+    background: url(../images/hengxian.png) no-repeat center;
+    background-size:100% 5px;
+    margin: 30px auto;
+
+}
+.home_body_home_m{
+    width:650px;
+    height: 90px;
+    margin: 0 auto;
+
+}
+.home_body_home_m ul{
+    list-style: none;
+}
+.home_body_home_m ul li{
+    float: left;
+}
+.home_body_home_m ul li a{
+    display: block;
+    width: 92px;
+    height: 92px;
+    margin-right: 34px;
+    position: relative;
+
+
+}
+.home_body_home_m span{
+    display: block;
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity;
+    -webkit-transition: opacity 1s;
+
+}
+.home_body_home_m_a1{
+    background: url(../images/out_btn.png) no-repeat 0 -93px;;
+}
+.home_body_home_m_a1_m{
+    background: url(../images/out_btn.png) no-repeat ;
+}
+.home_body_home_m_a2{
+    background: url(../images/out_btn.png) no-repeat  -125px -93px;
+}
+.home_body_home_m_a1_m1{
+    background: url(../images/out_btn.png) no-repeat -125px 0;
+}
+.home_body_home_m_a3{
+    background: url(../images/out_btn.png) no-repeat -251px -93px;
+}
+.home_body_home_m_a1_m2{
+    background: url(../images/out_btn.png) no-repeat  -251px 0;
+}
+.home_body_home_m_a4{
+    background: url(../images/out_btn.png) no-repeat -378px -93px;
+}
+.home_body_home_m_a1_m3{
+    background: url(../images/out_btn.png) no-repeat  -378px 0;
+}
+.home_body_home_m_a5{
+    background: url(../images/out_btn.png) no-repeat -502px -93px;
+
+}
+.home_body_home_m_a1_m4{
+    background: url(../images/out_btn.png) no-repeat  -502px 0;
+}
+/*这是版权开始*/
+.home_body_copy{
+    width: 600px;
+    height: 300px;
+    margin:  0 auto;
+    color: rgb(146,146,146);
+    font-size: 11px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.home_body_copy span{
+    color: rgb(146,190,36);
+}
+/*这是版权结束*/
+
+/*这是尾部*/
+.home_foot{
+
+    width: 100%;
+    height: 267px;
+    position:fixed;
+    bottom:-267px;
+    left:0;
+    z-index: 16;
+    background: url(../images/bg_foot.png) no-repeat center top;
+    transition: bottom;
+    -webkit-transition: bottom 0.5s;
+
+}
+/*这是结束*/
+/*这是foot的css结束*/
